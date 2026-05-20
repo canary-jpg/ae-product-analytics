@@ -3,17 +3,12 @@
 An end-to-end analytics engineering project built on the the [TheLook eCommerce](https://console.cloud.google.com/marketplace/product/bigquery-public-data/thelook-ecommerce) public dataset. Demonstrates a full production-grade data pipeline from raw source data to ML-powered churn scoring.
 
 ## Architechture
-BigQuery Public Dataset (TheLook eCommerce)
-↓
-Staging Layer (dbt views): cleaned, typed, rename
-↓
-Marts Layer (dbt tables): business-ready facts & dimensions
-↓
-Analysis Notebooks (Python): EDA, funnel analysis, cohort retention
-↓
-ML Model (XGBoost): churn probability scoring
-↓
+BigQuery Public Dataset (TheLook eCommerce) → Staging Layer (dbt views): cleaned, typed, renamed → Marts Layer (dbt tables): business-ready facts & dimensions → Analysis Notebooks (Python): EDA, funnel analysis, cohort retention → ML Model (XGBoost): churn probability scoring →
 ML Output(dbt table): predictions surfaced alongside user context
+
+## Lineage DAG
+
+<img width="1284" height="751" alt="lineage" src="https://github.com/user-attachments/assets/871724e0-2799-4f1d-8feb-d261fbeaaec6" />
 
 ## Project Structure
 ```
