@@ -1,0 +1,17 @@
+# dbt
+target/
+dbt_packages/
+logs/
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# ML artifacts
+ml/models/*.pkl
+
+# credentials — never commit these
+.env
+*.json
+profiles.yml
