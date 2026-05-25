@@ -2,6 +2,18 @@
 
 An end-to-end analytics engineering project built on the the [TheLook eCommerce](https://console.cloud.google.com/marketplace/product/bigquery-public-data/thelook-ecommerce) public dataset. Demonstrates a full production-grade data pipeline from raw source data to ML-powered churn scoring.
 
+## Portfolio Context
+
+This is Project 1 of a 5-project analytics engineering portfolio.
+
+| Project | Domain | Key Patterns |
+|---|---|---|
+| **Project 1 — Product Analytics** *(this repo)* | eCommerce | Sessionization, cohort retention, churn model |
+| [Project 2 — Support Analytics](https://github.com/yourusername/ae-support-analytics) | SaaS Support | SCD Type 2, NLP classification, escalation prediction |
+| Project 3 — Disease Surveillance *(coming soon)* | Public Health | Incremental models, outbreak detection, forecasting |
+| Project 4 — Health Outcomes *(coming soon)* | Clinical | Survival analysis, readmission prediction |
+| Project 5 — Metrics Layer *(coming soon)* | Cross-domain | dbt Semantic Layer, unified metric definitions |
+
 ## Architechture
 BigQuery Public Dataset (TheLook eCommerce) → Staging Layer (dbt views): cleaned, typed, renamed → Marts Layer (dbt tables): business-ready facts & dimensions → Analysis Notebooks (Python): EDA, funnel analysis, cohort retention → ML Model (XGBoost): churn probability scoring →
 ML Output(dbt table): predictions surfaced alongside user context
