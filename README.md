@@ -9,7 +9,7 @@ This is Project 1 of a 5-project analytics engineering portfolio.
 | Project | Domain | Key Patterns |
 |---|---|---|
 | **Project 1 — Product Analytics** *(this repo)* | eCommerce | Sessionization, cohort retention, churn model |
-| [Project 2 — Support Analytics](https://github.com/yourusername/ae-support-analytics) | SaaS Support | SCD Type 2, NLP classification, escalation prediction |
+| [Project 2 — Support Analytics](https://github.com/canary-jpg/ae-support-analytics) | SaaS Support | SCD Type 2, NLP classification, escalation prediction |
 | Project 3 — Disease Surveillance *(coming soon)* | Public Health | Incremental models, outbreak detection, forecasting |
 | Project 4 — Health Outcomes *(coming soon)* | Clinical | Survival analysis, readmission prediction |
 | Project 5 — Metrics Layer *(coming soon)* | Cross-domain | dbt Semantic Layer, unified metric definitions |
